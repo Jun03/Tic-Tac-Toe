@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>simply_Tic-Tac-Toe </title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div id="container">
+  <center>
+    <h1 id="mainh">
+      Free-Code-Camp
+    </h1>
+    <br />
+    <div id="new">
+      <button class="btn btn-lg btn-primary" id="btn1"><span>New-Game</span></button>
+    </div>
+    <div class="modal fade" id="choice1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>
+              Select Your Symbol
+            </h2>
+            <button class="close" data-dismiss="modal" type="button">&times</button>
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">
+              How do you wanna play?
+            </h4>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-lg btn-info" data-dismiss="modal" id="x" onClick="setFig(this.id)"><span>X</span></button><button class="btn btn-lg btn-info" data-dismiss="modal" id="o" onClick="setFig(this.id)"><span>0       </span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <table id="scorecard">
+      <tr>
+        <td colspan="2">
+          <p>
+            SCORE-CARD
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Player
+        </td>
+        <td>
+          Computer
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p id="p1">
+            0
+          </p>
+        </td>
+        <td>
+          <p id="p2">
+            0                              
+          </p>
+        </td>
+      </tr>
+    </table>
+    <div id="box">
+      <div class="game" id="board">
+        <div class="row">
+          <div class="col-sm-4 field" id="1" onClick="icon(this.id)">
+            T
+          </div>
+          <div class="col-sm-4 field" id="2" onClick="icon(this.id)">
+            I
+          </div>
+          <div class="col-sm-4 field" id="3" onClick="icon(this.id)">
+            C
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 field" id="4" onClick="icon(this.id)">
+            T
+          </div>
+          <div class="col-sm-4 field" id="5" onClick="icon(this.id)">
+            A
+          </div>
+          <div class="col-sm-4 field" id="6" onClick="icon(this.id)">
+            C
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 field" id="7" onClick="icon(this.id)">
+            T
+          </div>
+          <div class="col-sm-4 field" id="8" onClick="icon(this.id)">
+            O
+          </div>
+          <div class="col-sm-4 field" id="9" onClick="icon(this.id)">
+            E
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 id="made">
+      ...made by Anuj Mishra
+    </h2>
+  </center>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

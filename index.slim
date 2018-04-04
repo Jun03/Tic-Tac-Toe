@@ -1,0 +1,61 @@
+
+
+div id="container"
+    center
+          h1 id="mainh" Free-Code-Camp
+          br
+          div id="new"
+              button class="btn btn-lg btn-primary" id="btn1"  
+                      span New-Game
+          
+          div class="modal fade" id="choice1" role="dialog"
+              div class="modal-dialog"
+                  div class="modal-content"
+                      div class="modal-header" 
+                          h2 Select Your Symbol
+                          button type="button" class="close" data-dismiss="modal" &times
+                          
+                      div class="modal-body"
+                          h4 class="modal-title" How do you wanna play?
+                          
+                      div class="modal-footer"
+                          button class="btn btn-lg btn-info" id="x" onClick="setFig(this.id)" data-dismiss="modal" 
+                                 span X
+                          button class="btn btn-lg btn-info" onClick="setFig(this.id)" id="o" data-dismiss="modal" 
+                               span 0       
+          table id="scorecard"
+              tr 
+                td colspan="2"
+                   p SCORE-CARD
+              tr
+                td Player
+                td Computer
+              tr 
+                td 
+                  p id="p1" 0
+                td 
+                  p id="p2" 0                              
+               
+          div id="box"
+                  div id="board" class="game"
+                      div class="row"   
+                         div id="1" onClick="icon(this.id)" class="col-sm-4 field" T
+                         div id="2" onClick="icon(this.id)" class="col-sm-4 field" I
+                         div id="3" onClick="icon(this.id)" class="col-sm-4 field" C
+                      div class="row"   
+                         div id="4" onClick="icon(this.id)" class="col-sm-4 field" T
+                         div id="5" onClick="icon(this.id)" class="col-sm-4 field" A
+                         div id="6" onClick="icon(this.id)" class="col-sm-4 field" C
+                      div class="row"   
+                         div id="7" onClick="icon(this.id)" class="col-sm-4 field" T
+                         div id="8" onClick="icon(this.id)" class="col-sm-4 field" O
+                         div id="9" onClick="icon(this.id)" class="col-sm-4 field" E
+          h2 id="made"        ...made by Anuj Mishra
+         
+          
+              
+              
+              
+              
+              
+              
